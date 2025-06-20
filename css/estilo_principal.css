@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Tagesschrift&display=swap');
+
+body {
+  background-color: #fff6e5;
+}
+
+#container {
+    position: relative;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 900px;
+    height: 650px;
+}
+
+#topo {
+width:900px; /*comprimento da div*/
+height: 263px; /*altura da div*/
+background-image:url(../html/imagens/Banner_Loja_Virtual\ .png)
+}
+
+#menu {
+    width: 900px;
+    height: 40px;
+    background-color: #f9eebe;/*#d86420*/
+    word-spacing: 40px;
+    padding-top: 20px;
+}
+
+#link1 {
+    height: 15px;
+    margin-left: 230px;
+    float: left;
+}
+
+#link2 {
+    width: 30px;
+    height: 15px;
+    margin-left: 35px;
+    float: left;
+}
+
+#link3 {
+    width: 30px;
+    height: 15px;
+    margin-left: 65px;
+    float: left;
+}
+
+#link4 {
+    width: 80px;
+    height: 15px;
+    margin-left: 80px;
+    float: left;
+}
+
+#link5 {
+    width: 80px;
+    height: 15px;
+    margin-left: auto;
+    float: left;
+}
+
+
+#menu a{
+    font-family: "Dancing Script", cursive;
+    font-size: 22px;
+    color: #d86420;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    color: #a14c1a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+#conteudo{
+    width: 898px;
+    min-height: 300px;
+    border: 1px solid #d86420;
+    overflow: hidden;
+}
+
+.caixa{
+    width: 289px;
+    min-height: 300px;
+    float: left;
+    margin: 5px  5px  5px  5px;
+
+}
+
+.img {
+    width: 144px;
+    height: 70px;
+    float: left;
+}
+
+.imagem1{
+    margin-left: 15px;
+}
+
+.imagem2{
+    margin-left: 15px;
+}
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color: #5A3D2B;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align:justify;
+    text-indent: 7px;
+    margin-left: 10px;
+}
+
+ul{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color: #5A3D2B;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align:auto;
+    margin-left: px;
+
+}
+
+h2{
+    font-family: "Tagesschrift", system-ui;
+    text-align: center;
+    color: #d86420;
+}
+
+#rodape{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:bisque;
+    width: 880px;
+    height: 45px;
+    background-color: #d86420;
+    padding: 10px 10px 10px 10px;
+}
+
+
+
+
+

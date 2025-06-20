@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Tagesschrift&display=swap');
+
+body {
+  background-color: #fdf4e3;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#topo {
+width:900px; /*comprimento da div*/
+height: 263px; /*altura da div*/
+background-image:url(../html/imagens/Banner_Loja_Virtual\ .png)
+}
+
+#menu {
+    width: 900px;
+    height: 40px;
+    background-color: #f9eebe;/*#d86420*/
+    word-spacing: 40px;
+    padding-top: 20px;
+}
+
+#menu a{
+    font-family: "Dancing Script", cursive;
+    font-size: 22px;
+    color: #d86420;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    color: #a14c1a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+#link1 {
+    height: 15px;
+    margin-left: 230px;
+    float: left;
+}
+
+#link2 {
+    width: 30px;
+    height: 15px;
+    margin-left: 35px;
+    float: left;
+}
+
+#link3 {
+    width: 30px;
+    height: 15px;
+    margin-left: 65px;
+    float: left;
+}
+
+#link4 {
+    width: 80px;
+    height: 15px;
+    margin-left: 80px;
+    float: left;
+}
+
+#link5 {
+    width: 80px;
+    height: 15px;
+    margin-left: auto;
+    float: left;
+}
+
+#conteudo{
+    width: 900px;
+    min-height: 300px;
+    border: 1px solid #d86420;
+    display: inline-block;
+    
+}
+#rodape{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:bisque;
+    width: 880px;
+    height: 45px;
+    margin-left: 300px;
+    margin-top: 950px;
+    background-color: #d86420;
+    padding: 10px 10px 10px 10px;
+}
+
+.caixa {
+    width: 895px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    overflow: hidden;
+    
+}
+
+.acessorios{
+    width: 230px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 29px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #fdf4e3;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    display: inline-block;
+     /*width: 30%;
+     background-color: #fdf4e3;
+     border-radius: 8px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+     padding: 10px;
+     text-align: center;*/
+}
+
+.acessorios:hover {
+  transform: scale(1.03);
+}
+
+img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: "Tagesschrift", system-ui;
+    text-align: center;
+    color: #d86420;
+}
+
+button{
+    background-color: #E66A29;
+    color:#f9eebe;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #C75111;
+    color:#f9eebe;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+} 
+
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color: #5A3D2B;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-align:center;
+    font-weight: bolder;
+    text-indent: 7px;
+    margin-left: 10px;
+}
+
+#rodape{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: bisque;
+    width: 900px; /* igual ao container */
+    margin: 0 auto; /* centraliza */
+    height: 45px;
+    background-color: #d86420;
+    padding: 10px 0;
+    padding-top: 10px;
+    border-top: 1px solid #b04e14; /* opcional para acabamento */
+}

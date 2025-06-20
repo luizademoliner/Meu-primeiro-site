@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Tagesschrift&display=swap');
+
+body {
+  background-color: #fff6e5;
+}
+#container {
+    position: relative;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width: 900px;
+    height: auto;
+    
+}
+
+#topo {
+width:900px; /*comprimento da div*/
+height: 263px; /*altura da div*/
+background-image:url(../html/imagens/Banner_Loja_Virtual\ .png)
+}
+
+#menu {
+    width: 900px;
+    height: 40px;
+    background-color: #f9eebe;/*#d86420*/
+    word-spacing: 40px;
+    padding-top: 20px;
+}
+
+#link1 {
+    height: 15px;
+    margin-left: 230px;
+    float: left;
+}
+
+#link2 {
+    width: 30px;
+    height: 15px;
+    margin-left: 35px;
+    float: left;
+}
+
+#link3 {
+    width: 30px;
+    height: 15px;
+    margin-left: 65px;
+    float: left;
+}
+
+#link4 {
+    width: 80px;
+    height: 15px;
+    margin-left: 80px;
+    float: left;
+}
+
+#link5 {
+    width: 80px;
+    height: 15px;
+    margin-left: auto;
+    float: left;
+}
+
+
+#conteudo{
+    width: 900px;
+    min-height: 300px;
+    border: 1px solid #d86420;
+    overflow: hidden;/*cria barra de rolagem automatica*/
+}
+
+.formulario{
+    width: 325px;
+    min-height: 300px;
+    margin-top:20px;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:75px;
+    float:left;
+}
+
+.mapa{
+    width:325px;
+    min-height:300px;
+    margin-top:90px;
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-left:85px;
+    float:left;
+} 
+
+#menu a{
+    font-family: "Dancing Script", cursive;
+    font-size: 22px;
+    color: #d86420;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu a:hover{
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+    color: #a14c1a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2{
+    font-family: "Tagesschrift", system-ui;
+    text-align: center;
+    color: #C8511B;
+}
+
+label{
+    display: block;
+    margin: 5px 0 5px  0;
+}
+
+label span { /*formatando os identificadores dos campos do formulario*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #5A3D2B;
+    font-weight: bold;
+    display: block;
+    width: 80px;
+    margin-top: 2px;
+    float: left;
+}
+ input, textarea, select {
+    background-color: #f9eebe;
+    color: black;
+    width: 200px;
+    border: 1px solid #d86420;
+    border-radius: 5px;
+ }
+
+ input, textarea, select:hover {
+    background-color: transparent;
+    color: black;
+    width: 200px;
+    border: px solid  #cc7a00;
+    padding: 8px;
+    border-radius: 5px;
+ }
+ select {
+    width:auto;
+}
+
+textarea
+{
+height:100px;
+overflow: auto;
+max-height:120px;
+}
+
+button{
+    background-color: #E66A29;
+    color:#f9eebe;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #C75111;
+    color:#f9eebe;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+} 
+
+fieldset {
+    background-color:#FFF ;
+    border: 2px solid #e0a96d;
+    border-radius:5px;
+    padding:1rem;
+}
+
+#rodape{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color:bisque;
+    width: 880px;
+    height: 45px;
+    background-color: #d86420;
+    padding: 10px 10px 10px 10px;
+}
+
+.redes{
+   width: 100%;
+   height: 20px;
+   margin-bottom: 15px;
+   margin-left: 350px;
+   display: flex;
+   justify-content: space-around;
+   justify-content: center;
+   float: left;
+   
+}
+
+
+
+
+i{
+   width: 100%;
+   height: 20px;
+   display: flex;
+   justify-content: space-around;
+   justify-content: center;
+   float: left;  
+   padding: 15px;
+   align-items: center;
+   color: #5A3D2B;
+   
+}
+
