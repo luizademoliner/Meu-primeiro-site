@@ -1,31 +1,29 @@
-🌟 Meu Primeiro Site - Projeto Padaria
-Este repositório contém o meu primeiro projeto de site, desenvolvido para a avaliação da disciplina de Linguagem de Programação (LP) no curso técnico de Desenvolvimento de Sistemas - IFSul.
+# 🌟 Meu Primeiro Site - Projeto Padaria Farina
 
-📌 Sobre o projeto
-O objetivo era criar um site simples para uma empresa fictícia, utilizando apenas HTML e CSS, aplicando os conceitos básicos que aprendemos em aula.
+Este repositório contém o meu primeiro projeto de site, desenvolvido para a avaliação da disciplina de **Linguagem de Programação (LP)** no curso técnico de **Desenvolvimento de Sistemas - IFSul**.
+
+## 📌 Sobre o projeto
+
+O objetivo era criar um site simples para uma empresa fictícia, utilizando apenas **HTML** e **CSS**, aplicando os conceitos básicos que aprendemos em aula.
 
 O site apresenta:
 
-Página inicial com informações sobre a padaria
+- Página inicial com informações sobre a padaria
+- Cardápio com os principais produtos
+- Seção de contato
+- Layout simples, com foco em estruturação de conteúdo e estilização básica
 
-Cardápio com os principais produtos
+### 🚀 Tecnologias utilizadas
 
-Seção de contato
+- HTML5
+- CSS3
 
-Layout simples, com foco em estruturação de conteúdo e estilização básica
+### 💻 Status do projeto
 
-🚀 Tecnologias utilizadas
-HTML5
-
-CSS3
-
-💻 Status do projeto
 ✅ Concluído para a entrega da avaliação.
 
-Futuramente posso voltar para melhorar o design ou adicionar novas funcionalidades.
+Futuramente posso voltar para melhorar o design ou adicionar novas funcionalidades, incluindo melhorias no **CSS** e a adição de **JavaScript** para interatividade.
 
-📅 Data da entrega
+### 📅 Data da entrega
+
 Maio de 2025.
-
-
-
